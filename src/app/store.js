@@ -2,9 +2,15 @@
 
 import { configureStore } from "@reduxjs/toolkit";
 
+// Import our reducer - We will name it CounterReducer
+import counterReducer from '../features/counter/counterSlice.js'
+
 export const store = configureStore({
 
     reducer: {
-        
+        // Add our counterReducer
+        // Once here it is available to the whole app via the Provider in index.js
+        counter: counterReducer,
+
     }
 })
