@@ -10,7 +10,7 @@ import { Provider } from 'react-redux';
 
 ReactDOM.render(
   <React.StrictMode>
-    // Wrap the App inside the Provider and now our store / Global State will be available to the app.
+    {/* Wrap the App inside the Provider and now our store / Global State will be available to the app. */}
     <Provider store={store}>
       <App />
     </Provider>

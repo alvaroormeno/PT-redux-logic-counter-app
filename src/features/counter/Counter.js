@@ -14,8 +14,8 @@ const Counter = () => {
 		<section>
 			<p>{count}</p>
             <div>
-                // Inside of On click, we have an anonimous function. Inside this function we can call dispatch and inside we pass any of the actions we created.
-                <button onClick={() => dispatch(incremenet())}>+</button>
+                {/* Inside of On click, we have an anonimous function. Inside this function we can call dispatch and inside we pass any of the actions we created. */}
+                <button onClick={() => dispatch(increment())}>+</button>
                 <button onClick={() => dispatch(decrement())}>-</button>
             </div>
 		</section>
